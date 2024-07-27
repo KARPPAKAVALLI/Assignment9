@@ -4,6 +4,11 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class JaggedArray {
+    //4. Initialize a jagged array with N rows with weights of N persons.
+    //Each person can have different number of weights. 
+    //Write 
+      //a. A function to enter the weight of any user at any time. 
+      //b. A function to calculate the minimum weight of the nth person.
     static void addWeight(float[][] arr,int person) {
         Scanner sc=new Scanner(System.in);
         float[] copy= Arrays.copyOf(arr[person-1],arr[person-1].length+1 );
